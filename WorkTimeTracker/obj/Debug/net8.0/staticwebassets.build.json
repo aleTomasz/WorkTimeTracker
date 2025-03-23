@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lVpXxG8DB5+IKpUOEznBdRMO8e/TCvL2Zo/SACEluak=",
+  "Hash": "9jjHhYxomwr7X53XYhIIRGzh3VDpIt6Zc1lkY2q6GIo=",
   "Source": "WorkTimeTracker",
   "BasePath": "_content/WorkTimeTracker",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\favicon.svg",
+      "SourceId": "WorkTimeTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\",
+      "BasePath": "_content/WorkTimeTracker",
+      "RelativePath": "favicon.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.svg"
     },
     {
       "Identity": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\js\\site.js",
