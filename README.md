@@ -26,10 +26,8 @@
 - Clean and modern UI using **Bootstrap 5**
 - Responsive layout for mobile and desktop
 
-## 🚀 Getting Started
+## 💡 How to Run
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/WorkTimeTracker.git
-cd WorkTimeTracker
+1. Clone the repository
+   ```bash
+    git clone https://github.com/your-username/WorkTimeTracker.git
