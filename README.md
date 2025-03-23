@@ -30,4 +30,4 @@
 
 1. Clone the repository
    ```bash
-    git clone https://github.com/your-username/WorkTimeTracker.git
+    git clone https://github.com/aleTomasz/WorkTimeTracker.git
