@@ -156,3 +156,4 @@ C:\Users\wiatr\source\repos\WorkTimeTracker\WorkTimeTracker\obj\Debug\net8.0\ref
 C:\Users\wiatr\source\repos\WorkTimeTracker\WorkTimeTracker\obj\Debug\net8.0\WorkTimeTracker.pdb
 C:\Users\wiatr\source\repos\WorkTimeTracker\WorkTimeTracker\obj\Debug\net8.0\WorkTimeTracker.genruntimeconfig.cache
 C:\Users\wiatr\source\repos\WorkTimeTracker\WorkTimeTracker\obj\Debug\net8.0\ref\WorkTimeTracker.dll
+C:\Users\wiatr\source\repos\WorkTimeTracker\WorkTimeTracker\obj\Debug\net8.0\WorkTimeTracker.sourcelink.json

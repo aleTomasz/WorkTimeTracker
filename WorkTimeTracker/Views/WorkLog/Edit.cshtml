@@ -1,0 +1,24 @@
+﻿@model WorkTimeTracker.Models.WorkLog
+
+<div class="container py-4">
+    <h2>Edit Work Session</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="StartTime" class="form-label">Start Time</label>
+            <input asp-for="StartTime" class="form-control" type="datetime-local"
+                   value="@Model.StartTime.ToString("yyyy-MM-ddTHH:mm")" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="EndTime" class="form-label">End Time</label>
+            <input asp-for="EndTime" class="form-control" type="datetime-local"
+                   value="@Model.EndTime?.ToString("yyyy-MM-ddTHH:mm")" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
