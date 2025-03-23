@@ -1,0 +1,76 @@
+﻿@model WorkTimeTracker.Models.WorkLogViewModel
+
+<div class="container py-4">
+
+    <h2 class="mb-4">🕒 Rejestracja czasu pracy</h2>
+
+    @if (Model.OngoingLog == null)
+    {
+        <form method="post" asp-action="Start" class="mb-4">
+            <button type="submit" class="btn btn-success btn-lg">▶️ Rozpocznij pracę</button>
+        </form>
+    }
+    else
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">🔴 Obecna sesja pracy</h5>
+                <p class="card-text">Start: <strong>@Model.OngoingLog.StartTime.ToString("HH:mm:ss")</strong></p>
+                <p class="card-text">Trwa: <span id="liveTimer" class="fw-bold text-primary">00:00:00</span></p>
+
+                <form method="post" asp-action="Stop" asp-route-id="@Model.OngoingLog.Id">
+                    <button type="submit" class="btn btn-danger">⏹️ Zakończ pracę</button>
+                </form>
+            </div>
+        </div>
+
+        <script>
+            const startTime = new Date("@Model.OngoingLog.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")");
+
+            function updateTimer() {
+                const now = new Date();
+                const diff = new Date(now - startTime);
+                const hours = String(diff.getUTCHours()).padStart(2, '0');
+                const minutes = String(diff.getUTCMinutes()).padStart(2, '0');
+                const seconds = String(diff.getUTCSeconds()).padStart(2, '0');
+                document.getElementById("liveTimer").textContent = `${hours}:${minutes}:${seconds}`;
+            }
+
+            updateTimer();
+            setInterval(updateTimer, 1000);
+        </script>
+    }
+
+    <hr class="my-4" />
+
+    @foreach (var day in Model.DaySummaries)
+    {
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <strong>@day.Date.ToString("dddd, dd MMMM yyyy")</strong>
+                <span class="float-end">🧮 Łącznie: <strong>@day.TotalTime.ToString(@"hh\:mm\:ss")</strong></span>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Start</th>
+                            <th>Stop</th>
+                            <th>Trwanie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var log in day.Logs)
+                        {
+                            <tr>
+                                <td>@log.StartTime.ToString("HH:mm:ss")</td>
+                                <td>@(log.EndTime?.ToString("HH:mm:ss") ?? "-")</td>
+                                <td>@(log.Duration?.ToString(@"hh\:mm\:ss") ?? "-")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
