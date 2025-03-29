@@ -2,7 +2,13 @@
 
 <div class="container py-4">
 
-    <h2 class="mb-4">🕒 Rejestracja czasu pracy</h2>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">🕒 Rejestracja czasu pracy</h2>
+        <a asp-action="ExportToCsv" class="btn btn-outline-secondary">
+            📤 Export to CSV
+        </a>
+    </div>
 
     @if (Model.MonthSummaries != null && Model.MonthSummaries.Any())
     {
@@ -20,6 +26,7 @@
                         </li>
                     }
                 </ul>
+
             </div>
         </div>
     }
