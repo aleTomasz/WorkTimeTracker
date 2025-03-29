@@ -128,5 +128,26 @@ namespace WorkTimeTracker.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult ExportToCsv()
+        {
+            var logs = _context.WorkLogs
+                .Where(w => w.EndTime != null)
+                .OrderBy(w => w.StartTime)
+                .ToList();
+
+            var csv = new StringWriter();
+            csv.WriteLine("ID,Start Time,End Time,Duration");
+
+            foreach (var log in logs)
+            {
+                var duration = log.Duration?.ToString(@"hh\:mm\:ss") ?? "-";
+                csv.WriteLine($"{log.Id},{log.StartTime},{log.EndTime},{duration}");
+            }
+
+            var bytes = System.Text.Encoding.UTF8.GetBytes(csv.ToString());
+            return File(bytes, "text/csv", "worklogs.csv");
+        }
     }
 }
