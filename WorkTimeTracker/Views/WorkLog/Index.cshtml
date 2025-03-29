@@ -4,6 +4,26 @@
 
     <h2 class="mb-4">🕒 Rejestracja czasu pracy</h2>
 
+    @if (Model.MonthSummaries != null && Model.MonthSummaries.Any())
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark text-white">
+                <h5 class="mb-0">📊 Podsumowanie miesięczne</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    @foreach (var month in Model.MonthSummaries)
+                    {
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>@month.Year-@month.Month.ToString("D2")</span>
+                            <strong>@month.TotalTime.ToString(@"hh\:mm\:ss")</strong>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+
     @if (Model.OngoingLog == null)
     {
         <form method="post" asp-action="Start" class="mb-4">
@@ -84,5 +104,6 @@
                 </table>
             </div>
         </div>
+
     }
 </div>

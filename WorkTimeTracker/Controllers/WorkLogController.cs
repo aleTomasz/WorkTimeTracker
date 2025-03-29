@@ -22,6 +22,7 @@ namespace WorkTimeTracker.Controllers
                 .FirstOrDefault();
 
             // Grupa tylko zakończone wpisy
+            // Grupowanie po dniu
             var groupedLogs = _context.WorkLogs
                 .Where(w => w.EndTime != null)
                 .AsEnumerable()
@@ -37,10 +38,28 @@ namespace WorkTimeTracker.Controllers
                 .OrderByDescending(d => d.Date)
                 .ToList();
 
+            // Grupowanie po miesiącu
+            var monthSummaries = _context.WorkLogs
+                .Where(w => w.EndTime != null)
+                .AsEnumerable()
+                .GroupBy(w => new { w.StartTime.Year, w.StartTime.Month })
+                .Select(g => new WorkLogMonthSummary
+                {
+                    Year = g.Key.Year,
+                    Month = g.Key.Month,
+                    TotalTime = TimeSpan.FromSeconds(g
+                        .Where(w => w.Duration.HasValue)
+                        .Sum(w => w.Duration.Value.TotalSeconds))
+                })
+                .OrderByDescending(m => m.Year)
+                .ThenByDescending(m => m.Month)
+                .ToList();
+
             var model = new WorkLogViewModel
             {
                 DaySummaries = groupedLogs,
-                OngoingLog = ongoing
+                OngoingLog = ongoing,
+                MonthSummaries = monthSummaries
             };
 
             return View(model);
