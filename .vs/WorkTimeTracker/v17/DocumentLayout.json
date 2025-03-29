@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69CDAE3F-6098-4E33-8C33-25AA7012C88B}|WorkTimeTracker\\WorkTimeTracker.csproj|c:\\users\\wiatr\\source\\repos\\worktimetracker\\worktimetracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{69CDAE3F-6098-4E33-8C33-25AA7012C88B}|WorkTimeTracker\\WorkTimeTracker.csproj|solutionrelative:worktimetracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69CDAE3F-6098-4E33-8C33-25AA7012C88B}|WorkTimeTracker\\WorkTimeTracker.csproj|c:\\users\\wiatr\\source\\repos\\worktimetracker\\worktimetracker\\views\\worklog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69CDAE3F-6098-4E33-8C33-25AA7012C88B}|WorkTimeTracker\\WorkTimeTracker.csproj|solutionrelative:worktimetracker\\views\\worklog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -84,22 +88,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1170,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "M:\\ProgramData\\Microsoft\\VisualStudio\\Packages\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "M:\\ProgramData\\Microsoft\\VisualStudio\\Packages\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAHYUAAAAAAAAAAAvwJUUAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-29T09:16:45.467Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\_ViewImports.cshtml",
@@ -111,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\Shared\\_Layout.cshtml",
@@ -123,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Program.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Program.cs",
@@ -135,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WorkLogController.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Controllers\\WorkLogController.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Controllers\\WorkLogController.cs",
@@ -148,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WorkLogViewModel.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Models\\WorkLogViewModel.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Models\\WorkLogViewModel.cs",
@@ -161,20 +166,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\WorkLog\\Index.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\WorkLog\\Index.cshtml",
               "ToolTip": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\WorkLog\\Index.cshtml",
               "RelativeToolTip": "WorkTimeTracker\\Views\\WorkLog\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAA6AAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAmwHQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T19:16:04.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WorkTimeTracker\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WorkTimeTracker\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-29T09:33:58.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "M:\\ProgramData\\Microsoft\\VisualStudio\\Packages\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "M:\\ProgramData\\Microsoft\\VisualStudio\\Packages\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAHYUAAAAAAAAAAAvwJUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-29T09:16:45.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WorkLogMonthSummary.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Models\\WorkLogMonthSummary.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Models\\WorkLogMonthSummary.cs",
@@ -187,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\Home\\Index.cshtml",
@@ -200,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WorkTimeTracker.csproj",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\WorkTimeTracker.csproj",
               "RelativeDocumentMoniker": "WorkTimeTracker\\WorkTimeTracker.csproj",
@@ -213,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
@@ -225,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Data\\AppDbContext.cs",
@@ -237,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Data\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Data\\AppDbContextFactory.cs",
@@ -249,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WorkLog.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Models\\WorkLog.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Models\\WorkLog.cs",
@@ -261,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\Home\\Privacy.cshtml",
@@ -273,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "WorkLogDaySummary.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Models\\WorkLogDaySummary.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Models\\WorkLogDaySummary.cs",
@@ -285,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Views\\WorkLog\\Edit.cshtml",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Views\\WorkLog\\Edit.cshtml",
@@ -297,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "favicon.ico - Icon [32x32, 32-bitowy, BMP]",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "WorkTimeTracker\\wwwroot\\favicon.ico",
@@ -309,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20250323190554_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\wiatr\\source\\repos\\WorkTimeTracker\\WorkTimeTracker\\Migrations\\20250323190554_InitialCreate.cs",
               "RelativeDocumentMoniker": "WorkTimeTracker\\Migrations\\20250323190554_InitialCreate.cs",
@@ -318,6 +347,20 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T19:05:54.84Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
